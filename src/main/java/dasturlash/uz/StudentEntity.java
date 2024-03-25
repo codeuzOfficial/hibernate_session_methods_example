@@ -16,7 +16,7 @@ public class StudentEntity {
     @Column(name = "created_date")
     private LocalDateTime createdDate;
 
-    @Override
+   /* @Override
     public String toString() {
         return "StudentEntity{" +
                 "id=" + id +
@@ -24,7 +24,7 @@ public class StudentEntity {
                 ", surname='" + surname + '\'' +
                 ", createdDate=" + createdDate +
                 '}';
-    }
+    }*/
 
     public Integer getId() {
         return id;
